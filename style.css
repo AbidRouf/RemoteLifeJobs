@@ -51,7 +51,7 @@
     flex-direction: column;
 }
 
-button {
+a {
     width: 20%;
     height: 50px;
     margin-top: 20px;
@@ -61,15 +61,15 @@ button {
     font-size: 20px;
     color: white;
     cursor: pointer;
-}
-
-a {
+    text-align: center;
     text-decoration: none;
     color: white;
+    padding-top: 12px;
 }
 
+
 @media (max-width: 900px) {
-    button {
+    a {
         width: 40%;
     }
     .title {
